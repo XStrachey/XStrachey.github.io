@@ -52,7 +52,7 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
-
+  math_engine: katex
 
 
 # 评论系统
