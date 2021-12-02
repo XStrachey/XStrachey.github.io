@@ -72,7 +72,7 @@ gitalk:
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: b50bf2b12b5338a1845e33832976fd68
+# ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 
 
@@ -93,6 +93,9 @@ service-worker: true
 # Friends
 friends: [
     {
+        title: "Unity",
+        href: "https://unity.cn"
+    },{
         title: "Apple",
         href: "https://apple.com"
     },{
