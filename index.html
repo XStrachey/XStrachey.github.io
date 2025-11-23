@@ -1,43 +1,33 @@
 ---
 layout: page
-description: "Thinking will not overcome fear but action will."
+description: "Zhewei Xie - Economics Researcher"
 header-img: "img/bg/index-bg.jpg"
 ---
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">
-            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-        <div class="post-content-preview">
-            {{ post.content | strip_html | truncate:200 }}
+<div class="post-container">
+    <div class="row">
+        <div class="col-md-3" style="text-align: center;">
+            {% if site.sidebar-avatar %}
+            <img src="{{ site.sidebar-avatar }}" alt="Zhewei Xie" style="width: 200px; height: 200px; border-radius: 50%; margin-bottom: 20px;">
+            {% endif %}
         </div>
-    </a>
-    <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
-    </p>
+        <div class="col-md-9">
+            <h2>Zhewei Xie</h2>
+            <p>I am a graduate student in Economics at the University of Texas at Austin, with research interests in Applied Microeconomics, Industrial Organization, Urban Economics, and Environmental and Energy Economics.</p>
+            <p>My research focuses on understanding market dynamics, pricing strategies, and policy implications in various economic contexts. I am particularly interested in how transportation networks, ride-sharing platforms, and energy infrastructure shape economic outcomes and accessibility.</p>
+            <p>
+                <strong>Location:</strong> Austin, TX<br>
+                <strong>Email:</strong> <a href="mailto:zhewei.xie@utexas.edu">zhewei.xie@utexas.edu</a><br>
+                <strong>Links:</strong>
+                <a href="https://www.linkedin.com/in/zhewei-xie-b1aba9312/" target="_blank" style="margin-right: 15px;">
+                    <i class="fa fa-linkedin"></i> LinkedIn
+                </a>
+                {% if site.github_username %}
+                <a href="https://github.com/{{ site.github_username }}" target="_blank" style="margin-right: 15px;">
+                    <i class="fa fa-github"></i> GitHub
+                </a>
+                {% endif %}
+            </p>
+        </div>
+    </div>
 </div>
-<hr>
-{% endfor %}
-
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
