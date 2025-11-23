@@ -18,12 +18,8 @@ sidebar-avatar: /img/avatar/sidebar-avatar.jpg      # use absolute URL, seeing i
 
 # SNS settings
 RSS: false
-# weibo_username:     
-# zhihu_username:     
 github_username:    XStrachey
-# facebook_username:  
-# jianshu_username:   
-# twitter_username:
+linkedin_username:  zhewei-xie-b1aba9312
 
 
 
@@ -91,15 +87,15 @@ service-worker: true
 
 
 # Friends
-friends: [
-    {
-        title: "Unity",
-        href: "https://unity.cn"
-    },{
-        title: "ShaderToy",
-        href: "https://www.shadertoy.com"
-    },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
-    }
-]
+# friends: [
+#     {
+#         title: "Unity",
+#         href: "https://unity.cn"
+#     },{
+#         title: "ShaderToy",
+#         href: "https://www.shadertoy.com"
+#     },{
+#         title: "Apple Developer",
+#         href: "https://developer.apple.com/"
+#     }
+# ]

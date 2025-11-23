@@ -11,15 +11,19 @@ header-img: "img/bg/index-bg.jpg"
         </div>
         <div class="col-md-9">
             <h2>Zhewei Xie</h2>
-            <p>I am a graduate student in Economics at the University of Texas at Austin, with research interests in Applied Microeconomics, Industrial Organization, Urban Economics, and Environmental and Energy Economics.</p>
-            <p>My research focuses on understanding market dynamics, pricing strategies, and policy implications in various economic contexts. I am particularly interested in how transportation networks, ride-sharing platforms, and energy infrastructure shape economic outcomes and accessibility.</p>
+            <p>I am a graduate student in Economics at UT Austin with a multidisciplinary background in software engineering. My work focuses on industrial organization, market design, and platform economics, with a particular interest in how digital platforms use data, pricing algorithms, and institutional rules to shape competitive outcomes.</p>
+            <p>Before graduate study, I spent three years in the interactive entertainment industry, where I gained hands-on experience in game engine development, data-driven product optimization, and understanding how technological innovation and regulatory changes reshape firm strategy. This industry experience now informs my economic research, especially questions at the intersection of technology, competition, and policy.</p>
+            <p>At UT Austin, I have contributed to research on ride-hailing pricing, platform behavior, spatial–temporal optimization, and agent-based modeling. I combine computational methods with economic reasoning to study how micro-level mechanisms scale into broader market and welfare implications.</p>
+            <p>I aim to integrate empirical identification, structural modeling, and computational tools to analyze how modern digital and urban systems operate, and how policy design can promote both efficiency and fairness in rapidly evolving technological environments.</p>
             <p>
                 <strong>Location:</strong> Austin, TX<br>
                 <strong>Email:</strong> <a href="mailto:zhewei.xie@utexas.edu">zhewei.xie@utexas.edu</a><br>
                 <strong>Links:</strong>
-                <a href="https://www.linkedin.com/in/zhewei-xie-b1aba9312/" target="_blank" style="margin-right: 15px;">
+                {% if site.linkedin_username %}
+                <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" style="margin-right: 15px;">
                     <i class="fa fa-linkedin"></i> LinkedIn
                 </a>
+                {% endif %}
                 {% if site.github_username %}
                 <a href="https://github.com/{{ site.github_username }}" target="_blank" style="margin-right: 15px;">
                     <i class="fa fa-github"></i> GitHub
