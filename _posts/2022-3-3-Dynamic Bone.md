@@ -4,7 +4,7 @@ title:      Dynamic Bone
 subtitle:   一种轻量化的动画处理方案
 date:       2022-03-03
 author:     XStrachey
-header-img: img/posts/2021-12-1-2D Fuild-bg.jpg
+header-img: img/posts/2022-3-3-Dynamic Bone-bg.jpg
 catalog: true
 tags:
     - 物理动画
